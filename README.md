@@ -6,17 +6,16 @@ projects.
 
 # Usage
 
-Run Server with the following commands
-cd server && go run server.go
 
-Let's call it server terminal. Let server run in background on this terminal.
+## cd server && go run server.go to run the server
 
-Open two new terminals for the two clients. 
+Let's call it server terminal
 
-Run the following commands in each terminal
-cd client && go run client.go yourName
+Open two new terminals and type following commands:
+## cd client && go run client.go [yourName]
 
-You must enter name as arguments to client.go file, so that the system could identify you while broadcasting your message to your peer. 
+
+You must enter name as arguments to client.go file, so that the system could identify you while broadcasting your message to the peers in a network. 
 
 
 
