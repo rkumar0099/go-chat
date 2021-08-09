@@ -4,7 +4,7 @@ This is a simple chat application build using golang net package. TCP connection
 Only two members can join the server and communciate with each other. The purpose of this application is to get familiar with some important libraries of golang for the future
 projects.
 
-HOW TO USE?
+# Usage
 
 Run Server with the following commands
 cd server && go run server.go
